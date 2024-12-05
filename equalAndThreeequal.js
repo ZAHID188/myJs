@@ -1,0 +1,5 @@
+console.log(5 === 5);    // true (number is coerced to a string)
+console.log(5 === '5');    // true (number is coerced to a string)
+console.log(5 == '5');    // true (number is coerced to a string)
+console.log(null == undefined); // true (special case)
+console.log(0 == false);   // true (0 is coerced to false)

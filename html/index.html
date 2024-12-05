@@ -1,0 +1,16 @@
+<ul id="myList">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<script>
+    const list = document.getElementById('myList');
+
+    list.addEventListener('click', function (event) {
+        // Check if a list item was clicked
+        if (event.target.tagName === 'LI') {
+            alert(`You clicked on ${event.target.textContent}`);
+        }
+    });
+</script>
